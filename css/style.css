@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.puzzleContainer{
+			width: 408px;
+			height: 408px;
+            border: 1px solid black;
+            margin: 0 auto;
+            text-align: center;
+
+		}
+.piece{
+			width: 100px;
+			height: 100px;
+            border: 1px solid black;
+			float: left;
+			background-image: url('../images/ereq.jpg');
+			background-repeat: no-repeat;
+		}
+#starAnimation svg {
+  width:3%;
+  position:absolute;
+  left:48%;
+  display:none;
+  margin-top: 100px;
+  z-index: 222
+}
+h1 {
+	margin: 20px 0;
+}
+button{
+	width: 120px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin: 40px auto;
+	z-index: 9999;
+	position: relative
+}
+body{
+	text-align: center
+}
+.lose{
+	position: absolute;
+	width: 289px;
+    height: 200px;
+    left: 39%;
+    top: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc0000;
+	border-radius: 10px;
+	flex-direction: column;
+
+}
+.none{
+	display: none;
+}
